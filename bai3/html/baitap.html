@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0px;
+            margin: 0px auto;
+            }
+            .wrapper {
+                width: 960px;
+                border: 1px solid red;
+            }
+            header {
+                width: 959.6px;
+                height: 150px;
+                background-color: aqua;
+            }
+            footer {
+                width: 959.6px;
+                height: 150px;
+                background-color: aqua;
+            }
+            content {
+                width: 659.6px;
+                height: 450px;
+                background-color: grey;
+            }
+            section {
+                width: 60%;
+                height: 450px;
+                background-color: rgb(249, 249, 249);
+                float: left;
+            }
+            aside{
+                width: 40%;
+                height: 450px;
+                background-color: rgb(237, 206, 206);
+                float: left;
+            }
+            article h3{
+                text-align: center;
+                margin: 10px;
+                color: pink;
+            }
+            section article img{
+                height: 150px;
+                width: 575px;
+            }
+            .lbl {
+                height: 300px;
+                float: left;
+                width: 200px;
+                margin: 20px;
+            }
+            .inp{
+                height: 300px;
+                float: left;
+                width: 200px;
+                margin: 20px;
+            }
+            .cls{
+                clear: both;
+            }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <header></header>
+        <div class="cls"></div>
+        <div class="content">
+            <section>
+                <article>
+                    <h3>HẠ LONG BAY</h3>
+                </article>
+                <article>
+                    <img src="../img/halong.jpg" alt="" srcset="">
+                </article>
+                <article>
+                    <form action="" method="get">
+                        <h4 style="text-align: center; margin-top: 10px; margin-bottom: 5px">THÔNG TIN</h4>
+                        <div class="lbl">
+                            <label for="">Mã Sinh Viên</label><br><br>
+                            <label for="">Họ tên</label><br><br>
+                            <label for="">Ngày Sinh</label><br><br>
+                            <label for="">Quê Quán</label><br><br>
+                            <label for="">Giới Tính</label><br><br>
+
+                        </div>
+                        <div class="inp">
+                            <input type="text" name="txtMa" id="txtMa"><br><br>
+                            <input type="text" name="txtHT" id="txtHT"><br><br>
+                            <input type="date" name="txtdate" id="txtdate"><br><br>
+                            <select name="slQQ" id="slQQ"><br><br>
+                                <option value="Cần Thơ">
+                                    Cần Thơ
+                                </option>
+                                <option value="Long An">
+                                     Long An
+                                </option>
+                                <option value="Hồ Chí Minh">
+                                     TP.HCM
+                                </option>
+                            </select><br><br>
+                            <input type="radio" name="gt" id="ckNam" value="Nam"><label>Nam</label>
+                            <input type="radio" name="gt" id="ckNu" value="Nu"><label>Nu</label>
+
+                        </div>
+
+                    </form>
+                </article>
+
+            </section>
+            <aside>
+
+            </aside>
+        </div>
+        <div class="cls"></div>
+        <footer></footer>
+    </div>
+
+    
+</body>
+</html>
